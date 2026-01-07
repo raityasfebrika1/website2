@@ -11,7 +11,7 @@
 
 <div class="container">
     <div class="card">
-        <h2>Selamat Datang di TES CICD ke 2</h2>
+        <h2>Selamat Datang di TES CICD</h2>
 
         <?php if(isset($_SESSION['login'])): ?>
             <p>Halo <b><?= $_SESSION['user']; ?></b>, selamat berbelanja.</p>
