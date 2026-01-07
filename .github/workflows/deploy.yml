@@ -19,5 +19,6 @@ jobs:
         port: 777
         script: |
           cd /var/www/website2
-          git pull origin main
+          git fetch origin
+          git reset --hard origin/main
           sudo systemctl reload nginx
